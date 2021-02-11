@@ -104,10 +104,10 @@
 /* Esercizio 11 */
 .ex-11-icon {
     font-size: 60px;
-    animation: ex-11 2s infinite;
+    transition: 1s;
 }
-@keyframes ex-11 {
-  75% {transform: rotate(270deg);}
+.ex-11-icon:hover {
+  transform: rotate(270deg);
 }
 
 /* Esercizio 12-13 */
